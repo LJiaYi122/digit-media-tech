@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/AI_img/AI_img",
+    "pages/index/index",  
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#87CEFA",
+    "navigationBarTitleText": "智慧天气",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor":"#79B7FF",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "天气",
+      "iconPath": "/images/tabbar_icon/weather.png",
+      "selectedIconPath": "/images/tabbar_icon/selectedweather.png"
+    }, {
+      "pagePath": "pages/AI_img/AI_img",
+      "text": "AI图像",
+      "iconPath": "/images/tabbar_icon/image.png",
+      "selectedIconPath": "/images/tabbar_icon/selectedimage.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

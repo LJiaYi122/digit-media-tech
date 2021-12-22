@@ -1,0 +1,8 @@
+<!--pages/AI_img/AI_img.wxml-->
+<image src="/images/animal2.jpg"></image>
+<view>我猜这是{{result.result[0].name}},因为他的置信度有{{result.result[0].score}}哦~</view>
+<view>除此之外，也有可能是下面的某种情况哦~：</view>
+<view>{{result.result[1].name}},置信度有 {{result.result[1].score}}</view>
+<view>{{result.result[2].name}},置信度有 {{result.result[2].score}}</view>
+<view>{{result.result[3].name}},置信度有 {{result.result[3].score}}</view>
+<view>{{result.result[4].name}},置信度有 {{result.result[4].score}}</view>
